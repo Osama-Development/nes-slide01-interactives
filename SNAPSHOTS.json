@@ -1,12 +1,12 @@
 {
-  "state": 1,
+  "state": 2,
   "selected_sources": [
     {
-      "filename": "NES_Slide01_Element01_Use_Interactive.html",
-      "sha256": "c462b0648b4b9d81c91c499005205e29fe0ef8e2e0ee28cd52acc063a62f02de",
-      "size_bytes": 165652,
-      "source_id": "src-23b10a12eae4b378e465f1f562c69d08e56354a13da57f5b8718ebb0c7b482b9",
-      "observed_created_at": "2026-10-23T14:40:09.636411+00:00",
+      "filename": "NES_Slide01_Element01_Use_Interactive_Fixed.html",
+      "sha256": "715093eed73921a87a1e53a73b64a33ba5ee8f6ceeccceb8541d93bb931a21f4",
+      "size_bytes": 166715,
+      "source_id": "src-f59bc5ce275a738ce85a4fa1dc318d746e3f33d343707559847642bf9dba06ba",
+      "observed_created_at": "2026-10-23T14:59:38.057341+00:00",
       "scenes": 6,
       "steps": 15,
       "scene_ids": [
@@ -28,7 +28,96 @@
         "fullscreen"
       ],
       "global_readonly_api": [
-        "NES_ElementOne"
+        "NES_Element01"
+      ],
+      "syntax_checks": [
+        {
+          "parser": "node --check",
+          "pass": true
+        }
+      ],
+      "embedded_font_sha256": [
+        "c86afa717871a008da9b45a3919df04297f960d27111bff90f10f3ecf2cb4f85",
+        "90d42e8e893aaa4f8132e683d7043b3e38d8b85c914c6ed8787f7929655f3938",
+        "bdc7a7971b7b0fbacaef29bbbfc104bdc51a16a2f83b16c562db500f8b35cf65"
+      ],
+      "embedded_license_sha256": "04d8d64534b55778c04f3236565152e038d52b187c5a8d8752dd25a51c57445f",
+      "runtime_test": "NOT_PERFORMED"
+    },
+    {
+      "filename": "NES_Slide01_Element02_Understanding_Interactive.html",
+      "sha256": "c7262621618b5cd23e4773e119c24fcfd1bcf34b363882b87fe68cef8bdcd603",
+      "size_bytes": 178083,
+      "source_id": "src-1ebd20dbf73416755f27ad6002c7d8f0964dd978f9ece266a96400c630e55110",
+      "observed_created_at": "2026-10-23T14:59:42.011549+00:00",
+      "scenes": 7,
+      "steps": 19,
+      "scene_ids": [
+        "begin",
+        "student-questions",
+        "deliver-formats",
+        "new-client",
+        "site-types",
+        "right-questions",
+        "bridge-achievement"
+      ],
+      "named_functions": [
+        "character",
+        "actor",
+        "go",
+        "next",
+        "previous",
+        "fit",
+        "toast",
+        "fullscreen"
+      ],
+      "global_readonly_api": [
+        "NES_Element02"
+      ],
+      "syntax_checks": [
+        {
+          "parser": "node --check",
+          "pass": true
+        }
+      ],
+      "embedded_font_sha256": [
+        "c86afa717871a008da9b45a3919df04297f960d27111bff90f10f3ecf2cb4f85",
+        "90d42e8e893aaa4f8132e683d7043b3e38d8b85c914c6ed8787f7929655f3938",
+        "bdc7a7971b7b0fbacaef29bbbfc104bdc51a16a2f83b16c562db500f8b35cf65"
+      ],
+      "embedded_license_sha256": "04d8d64534b55778c04f3236565152e038d52b187c5a8d8752dd25a51c57445f",
+      "runtime_test": "NOT_PERFORMED"
+    },
+    {
+      "filename": "NES_Slide01_Element03_Achievement_Interactive.html",
+      "sha256": "1285f90a44b98b431ce2ec49e73bfdbaac85ef052c15465f71cdd63179e656ff",
+      "size_bytes": 180353,
+      "source_id": "src-1054a46bbe83050d2018fd11aac18283c9c92399e236789e3fd34c360af97674",
+      "observed_created_at": "2026-10-23T14:59:45.463005+00:00",
+      "scenes": 8,
+      "steps": 22,
+      "scene_ids": [
+        "begin",
+        "logo-test",
+        "store-built",
+        "order-failure",
+        "tested",
+        "no-sales",
+        "levels",
+        "decision-bridge"
+      ],
+      "named_functions": [
+        "character",
+        "actor",
+        "go",
+        "next",
+        "previous",
+        "fit",
+        "toast",
+        "fullscreen"
+      ],
+      "global_readonly_api": [
+        "NES_Element03"
       ],
       "syntax_checks": [
         {

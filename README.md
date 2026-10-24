@@ -1,6 +1,6 @@
-# NES EDU — Slide 01 interactive elements, captured state 1/2
+# NES EDU — Slide 01 interactive elements, captured state 2/2
 
-Original single Use element. Open a selected HTML file in a modern browser. The source has embedded styles, SVG illustrations and fonts; no build/install/backend is present. The original filename and bytes are preserved.
+Corrected Use plus Understanding and Achievement, exactly matching the captured ZIP members. Open a selected HTML file in a modern browser. The source has embedded styles, SVG illustrations and fonts; no build/install/backend is present. The original filename and bytes are preserved.
 
 Buttons and scene pills navigate progressive beats. Left/down/space/PageDown/Enter advance; right/up/PageUp/Backspace go back. Home/End select endpoints; R restarts; F toggles fullscreen; horizontal swipes navigate. Text instructor notes feed an accessible live announcement.
 
