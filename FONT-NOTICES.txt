@@ -1,0 +1,3 @@
+Tajawal font dependency only
+
+Each preserved HTML embeds three WOFF fonts and the complete unchanged SIL Open Font License 1.1 notice credited to Copyright 2018 Boutros International. The OFL applies to those fonts. Consult the original notice at the end of each HTML. No license for the user-authored application, narration, or illustrations is granted by this supplemental notice.

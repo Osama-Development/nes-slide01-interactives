@@ -1,0 +1,87 @@
+{
+  "family": "Slide 01 interactive curriculum elements: Use, Understanding, Achievement",
+  "grouping": "Shared scene/beat controller, embedded SVG illustration and fonts, authored Arabic instructor narration, and explicit curricular transitions. Subset of parent curriculum only; no claim of full 44-slide recovery.",
+  "captured_states": 2,
+  "original_html_count": 4,
+  "exact_archive_three_members": true,
+  "use_to_fixed": {
+    "old_sha256": "c462b0648b4b9d81c91c499005205e29fe0ef8e2e0ee28cd52acc063a62f02de",
+    "new_sha256": "715093eed73921a87a1e53a73b64a33ba5ee8f6ceeccceb8541d93bb931a21f4",
+    "size_delta_bytes": 1063,
+    "line_edits": [
+      {
+        "operation": "replace",
+        "old_lines": [
+          8,
+          8
+        ],
+        "new_lines": [
+          8,
+          8
+        ],
+        "removed": 1,
+        "added": 1
+      },
+      {
+        "operation": "insert",
+        "old_lines": [
+          37,
+          36
+        ],
+        "new_lines": [
+          37,
+          49
+        ],
+        "removed": 0,
+        "added": 13
+      },
+      {
+        "operation": "replace",
+        "old_lines": [
+          41,
+          41
+        ],
+        "new_lines": [
+          54,
+          54
+        ],
+        "removed": 1,
+        "added": 1
+      },
+      {
+        "operation": "replace",
+        "old_lines": [
+          222,
+          222
+        ],
+        "new_lines": [
+          235,
+          235
+        ],
+        "removed": 1,
+        "added": 1
+      }
+    ],
+    "semantic_changes": [
+      "Title and viewport accessible label use numeric Element 01.",
+      "Appended CSS disables transform/filter on scene/reveal containers; applies local child pop animation, fixes error-panel top at 244px and respects reduced-motion for the added animation.",
+      "Readonly window API renamed NES_ElementOne to NES_Element01.",
+      "Scene arrays, narrator notes, beat progression and event handlers otherwise unchanged."
+    ]
+  },
+  "review_status": "Static inspected; 4 script blocks parse; runtime/visual verification NOT_PERFORMED",
+  "privacy": "Generic instructor examples and unnamed students/clients. Static credential/private-ID patterns found no matches. No exhaustive provenance clearance inferred.",
+  "network_and_storage": "No fetch, XMLHttpRequest, WebSocket, sendBeacon or localStorage references in these four files. Three WOFF font data URIs embedded in each. Only observed HTTP URLs are font attribution/license links.",
+  "actual_static_limitations": [
+    "Fixed revision changes the public readonly global name; consumers of NES_ElementOne must adapt.",
+    "Fixed placement/containing-block change is present in CSS; visual success is not runtime verified.",
+    "Speech notes are text in aria-live announcements, not an audio narration implementation.",
+    "Navigation state is in memory; no persistence or cross-file automatic curriculum navigation is implemented.",
+    "Injected HTML is authored template content, not a user Markdown loader; runtime accessibility and small-screen fit remain untested."
+  ],
+  "planned_or_unverified": [
+    "No browser rendering or interaction tests performed.",
+    "No completion claim for parent curriculum or global current inventory."
+  ],
+  "font_license": "Original full OFL1.1 comment and all font bytes retained unchanged; supplemental notice grants no application license."
+}

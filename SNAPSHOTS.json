@@ -1,0 +1,49 @@
+{
+  "state": 1,
+  "selected_sources": [
+    {
+      "filename": "NES_Slide01_Element01_Use_Interactive.html",
+      "sha256": "c462b0648b4b9d81c91c499005205e29fe0ef8e2e0ee28cd52acc063a62f02de",
+      "size_bytes": 165652,
+      "source_id": "src-23b10a12eae4b378e465f1f562c69d08e56354a13da57f5b8718ebb0c7b482b9",
+      "observed_created_at": "2026-10-23T14:40:09.636411+00:00",
+      "scenes": 6,
+      "steps": 15,
+      "scene_ids": [
+        "start",
+        "designer",
+        "definition",
+        "delivery",
+        "limit",
+        "bridge"
+      ],
+      "named_functions": [
+        "character",
+        "actor",
+        "go",
+        "next",
+        "previous",
+        "fit",
+        "toast",
+        "fullscreen"
+      ],
+      "global_readonly_api": [
+        "NES_ElementOne"
+      ],
+      "syntax_checks": [
+        {
+          "parser": "node --check",
+          "pass": true
+        }
+      ],
+      "embedded_font_sha256": [
+        "c86afa717871a008da9b45a3919df04297f960d27111bff90f10f3ecf2cb4f85",
+        "90d42e8e893aaa4f8132e683d7043b3e38d8b85c914c6ed8787f7929655f3938",
+        "bdc7a7971b7b0fbacaef29bbbfc104bdc51a16a2f83b16c562db500f8b35cf65"
+      ],
+      "embedded_license_sha256": "04d8d64534b55778c04f3236565152e038d52b187c5a8d8752dd25a51c57445f",
+      "runtime_test": "NOT_PERFORMED"
+    }
+  ],
+  "history_interpretation": "Observed artifact order only. New restoration commits; not original developer commits or release dates."
+}

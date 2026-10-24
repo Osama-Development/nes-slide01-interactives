@@ -1,0 +1,25 @@
+--- NES_Slide01_Element01_Use_Interactive.html
++++ NES_Slide01_Element01_Use_Interactive_Fixed.html
+@@ -8 +8 @@
+-<title>NES EDU | الشريحة 01 — العنصر الأول: الاستخدام</title>
++<title>NES EDU | الشريحة 01 — العنصر 01: الاستخدام</title>
+@@ -36,0 +37,13 @@
++
++/* Corrected reveal mechanics: no transform/translate on scene or reveal containers.
++   No temporary containing block for absolutely positioned callouts.
++   New detail appears in its *final* place with a subtle local pop only. */
++.scene{transform:none!important;transition:opacity .25s ease,visibility 0s linear .25s!important}
++.scene.active{transform:none!important;transition:opacity .26s ease,visibility 0s!important}
++.reveal,.reveal.pop{transform:none!important;filter:none!important;transition:opacity .17s ease,visibility 0s linear .17s!important;transition-delay:0s!important}
++.reveal.visible{transform:none!important;filter:none!important;transition:opacity .23s ease,visibility 0s!important;transition-delay:0s!important}
++.reveal.visible > * {animation:nesFixedPop .26s cubic-bezier(.2,.85,.2,1) both;transform-origin:center center}
++@keyframes nesFixedPop{from{opacity:.3;transform:scale(.957)}to{opacity:1;transform:scale(1)}}
++.error-panel{top:244px!important;bottom:auto!important}
++@media(prefers-reduced-motion:reduce){.reveal.visible > *{animation:none!important}}
++
+@@ -41 +54 @@
+-<div id="viewport" aria-label="عرض العنصر الأول من الشريحة الأولى">
++<div id="viewport" aria-label="عرض العنصر 01 من الشريحة الأولى">
+@@ -222 +235 @@
+-window.NES_ElementOne=Object.freeze({get scene(){return sequence[index].scene+1},get step(){return index+1},get totalSteps(){return sequence.length},get totalScenes(){return content.length}});
++window.NES_Element01=Object.freeze({get scene(){return sequence[index].scene+1},get step(){return index+1},get totalSteps(){return sequence.length},get totalScenes(){return content.length}});

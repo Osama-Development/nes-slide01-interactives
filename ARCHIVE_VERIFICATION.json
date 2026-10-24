@@ -1,0 +1,24 @@
+{
+  "archive_filename": "NES_Slide01_Elements_01-03_Interactive_Fixed.zip",
+  "archive_sha256": "6db9d2c2d13085dd80f98f2b49001cb88cfcae81095e98e8e320a6ac1aafca1b",
+  "archive_size_bytes": 324195,
+  "observed_created_at": "2026-10-23T14:59:34.419378+00:00",
+  "members": [
+    {
+      "filename": "NES_Slide01_Element01_Use_Interactive_Fixed.html",
+      "sha256": "715093eed73921a87a1e53a73b64a33ba5ee8f6ceeccceb8541d93bb931a21f4",
+      "exact_equal_to_separate_original": true
+    },
+    {
+      "filename": "NES_Slide01_Element02_Understanding_Interactive.html",
+      "sha256": "c7262621618b5cd23e4773e119c24fcfd1bcf34b363882b87fe68cef8bdcd603",
+      "exact_equal_to_separate_original": true
+    },
+    {
+      "filename": "NES_Slide01_Element03_Achievement_Interactive.html",
+      "sha256": "1285f90a44b98b431ce2ec49e73bfdbaac85ef052c15465f71cdd63179e656ff",
+      "exact_equal_to_separate_original": true
+    }
+  ],
+  "interpretation": "Exact captured three-file bundle; archive timestamps are not development dates."
+}
